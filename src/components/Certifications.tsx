@@ -85,17 +85,6 @@ export default function Certifications() {
                   <p className="text-gray-500 dark:text-gray-400 text-sm">
                     Credential ID: {cert.credentialId}
                   </p>
-                  {cert.link && (
-                    <a
-                      href={cert.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-2 inline-flex items-center text-sm text-indigo-600 dark:text-indigo-400 underline hover:text-indigo-800 dark:hover:text-indigo-300"
-                    >
-                      View Certificate
-                      <ArrowTopRightOnSquareIcon className="ml-1 h-4 w-4" />
-                    </a>
-                  )}
                 </div>
               </div>
             </motion.div>
