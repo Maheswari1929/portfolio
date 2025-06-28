@@ -81,9 +81,6 @@ export default function Skills() {
                     {skill.category}
                   </h3>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  {skill.description}
-                </p>
                 <div className="space-y-3">
                   {skill.items.map((item) => (
                     <div key={item.name}>
