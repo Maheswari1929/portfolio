@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { AcademicCapIcon } from '@heroicons/react/24/outline';
-
 const certifications = [
   {
     name: 'Simplilearn SkillUp – Full Stack Development 101',
@@ -35,6 +34,7 @@ const certifications = [
     credentialId: "4Y3Mp2EZoz9zSRmu5",
   },
 ];
+
 
 export default function Certifications() {
   return (
