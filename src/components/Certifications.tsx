@@ -2,42 +2,39 @@
 
 import { motion } from 'framer-motion';
 import { AcademicCapIcon } from '@heroicons/react/24/outline';
-import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 
 const certifications = [
   {
-  name: 'Simplilearn SkillUp – Full Stack Development 101',
-  issuer: 'Simplilearn Education',
-  date: '2025',
-  credentialId: 'AGinsxwhsieovnoaev',
+    name: 'Simplilearn SkillUp – Full Stack Development 101',
+    issuer: 'Simplilearn Education',
+    date: '2025',
+    credentialId: 'AGinsxwhsieovnoaev',
   },
   {
-  name: 'Skyscanner – Front-End Software Engineering Job Simulation',
-  issuer: 'Forage ',
-  date: '2025',
-  credentialId: 'AEx4z2B5KxfkBxyi5',
+    name: 'Skyscanner – Front-End Software Engineering Job Simulation',
+    issuer: 'Forage ',
+    date: '2025',
+    credentialId: 'AEx4z2B5KxfkBxyi5',
   },
   {
-  name: "City of Moreton Bay – Web Development Job Simulation",
-  issuer: "Forage",
-  date: '2025',
-  credentialId: "LRpDMhsEAhvfYXD8x",
+    name: "City of Moreton Bay – Web Development Job Simulation",
+    issuer: "Forage",
+    date: '2025',
+    credentialId: "LRpDMhsEAhvfYXD8x",
   },
   {
-  name: "Accenture UK – Developer and Technology Job Simulation",
-  issuer: "Forage ",
-  date: '2025',
-  credentialId: "ZqcwGc6wtMmH8keZg",
+    name: "Accenture UK – Developer and Technology Job Simulation",
+    issuer: "Forage ",
+    date: '2025',
+    credentialId: "ZqcwGc6wtMmH8keZg",
   },
   {
-  name: "Tata Group - GenAI Powered Data Analytics Job Simulation",
-  issuer: "TATA SKill Builder",
-  date: '2025',
-  credentialId: "4Y3Mp2EZoz9zSRmu5",
- },
- 
+    name: "Tata Group - GenAI Powered Data Analytics Job Simulation",
+    issuer: "TATA SKill Builder",
+    date: '2025',
+    credentialId: "4Y3Mp2EZoz9zSRmu5",
+  },
 ];
-
 
 export default function Certifications() {
   return (
